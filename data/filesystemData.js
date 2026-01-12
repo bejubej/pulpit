@@ -265,7 +265,7 @@ export const FILESYSTEM = {
         {
           type: "link",
           name: "Tablica Śledztwa",
-          url: "",  // ← TUTAJ WPISZ SWÓJ URL
+          url: "https://bejubej.github.io/pulpit/detective_board_timer.html",  // ← TUTAJ WPISZ SWÓJ URL
           icon: "assets/icons/link.png"   // opcjonalna ikona
         },
 
@@ -306,3 +306,4 @@ export const FILESYSTEM = {
     }
   ]
 };
+
