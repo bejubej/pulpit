@@ -57,7 +57,7 @@ Jeśli to czytasz, znaczy że system Ci zaufał.`
 ========================= */
 
 function handleRunCommand(cmd) {
-  if (cmd === "atlas") {
+  if (cmd === "bubunio") {
     unlockRunFile();
   } else {
     alert("Nie można odnaleźć pliku lub polecenia.");
@@ -171,4 +171,5 @@ export function refreshDesktop() {
   if (desktopNode) {
     renderIcons(desktopNode.children);
   }
+
 }
