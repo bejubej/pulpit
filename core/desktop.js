@@ -68,15 +68,15 @@ function unlockRunFile() {
   const desktop = getDesktopNode();
 
   const exists = desktop.children.some(
-    n => n.name === "akturodzenia.html"
+    n => n.name === "akturodzenia"
   );
   if (exists) return;
 
   desktop.children.push({
     type: "txt",
-    name: "akturodzenia.html",
+    name: "akturodzenia",
     readOnly: true,
-    src: "assets/texts/akt_pochodzenia.html"
+    src: "assets/texts/akta_pochodzenia.html"
   });
 
   refreshDesktop();
@@ -173,3 +173,4 @@ export function refreshDesktop() {
   }
 
 }
+
